@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="src/styles.css">
+        <title>Team Points</title>
+        <script src="https://kit.fontawesome.com/c572531a0a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <section class="teams-group">
+            <nav>
+                <div>Logo</div>
+                <ul>
+                    <li>Scores</li>
+                    <li>Charts</li>
+                    <li><i class="fas fa-bars" id="hamburger"><span class="tooltip-text">Add learning intention</span></i></li>
+                    
+                </ul>
+            </nav>
+
+            
+
+        </section>
+
+        <div class="row">
+            <div class="column" style="background-color:#aaa;">
+            <img id="team1-img" src="img/team1.png" alt="team1-bird">
+            <div class="score-container">
+            <span class = "team-score" id = "team1-score">0</p>
+            </div>
+            <div class="btn">
+                <button class="btn-add" id="team1-btn" >Add Point</button>
+                <button class="btn-undo" id="team1-btn" >Undo</button>
+                <button class="btn-reset" id="team1-btn">Reset</button>
+            </div>
+            </div>
+            <div class="column" style="background-color:#bbb;">
+            <img id="team2-img" src="img/team2.png" alt="team1-bird">
+            <div class="score-container">
+            <span class = "team-score" id = "team2-score">0</p>
+            </div>
+            <div class="btn">
+                <button class="btn-add" id="team2-btn" >Add Point</button>
+                <button class="btn-undo" id="team2-btn">Undo</button>
+                <button class="btn-reset" id="team2-btn">Reset</button>
+            </div>
+            </div>
+            <div class="column" style="background-color:#ccc;">
+                <img id="team3-img"src="img/team3.png" alt="team1-bird">
+                <div class="score-container">
+                <span class = "team-score" id = "team3-score">0</p>
+                </div>
+            <div class="btn">
+                <button class="btn-add" id="team3-btn">Add Point</button>
+                <button class="btn-undo" id="team3-btn">Undo</button>
+                <button class="btn-reset" id="team3-btn">Reset</button>
+            </div>
+        
+            </div>
+            <div class="column" style="background-color:#ddd;">
+                <img id="team4-img" src="img/team4.png" alt="team1-bird">
+                <div class="score-container">
+                <span class = "team-score" id = "team4-score">0</p>
+                </div>
+            <div class="btn">
+                <button class="btn-add" id="team4-btn">Add Point</button>
+                <button class="btn-undo" id="team4-btn">Undo</button>
+                <button class="btn-reset" id="team4-btn">Reset</button>
+            </div>
+        </div>
+        </div>
+    
+
+        <script src="src/index.js"></script>
+    </body>
+</html>
