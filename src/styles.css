@@ -8,9 +8,18 @@
     --team4-color: rgba(0, 0, 255, 0.562);
 }
 
+.meadows-logo {
+    height: 60px;
+    margin-left: 10px;
+}
 
 body {
     font-family: "Open Sans", sans-serif;
+    
+}
+
+.row {
+    background-color: antiquewhite;
 }
 
 nav {
@@ -26,6 +35,10 @@ ul {
 
 li {
     width: 100px;
+    text-decoration: none;
+}
+
+a {
     text-decoration: none;
 }
 
@@ -101,6 +114,8 @@ button {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
+
+    
 }
 
 .score-container {
@@ -137,6 +152,9 @@ button {
     color: var(--team4-color);
 }
 
+/* #team1-score, #team2-score, #team3-score, #team4-score {
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  } */
 
 
 .learning-intention-input {
@@ -170,4 +188,46 @@ button {
 #hamburger:active {
     border: 1px solid black;
     padding: 3px;
+}
+
+
+.summary-container {
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#lastweek-winner {
+    width: 235px;
+    height: 100px;
+    float:left;
+    border: 1px solid black;
+}
+
+#thisweek-winner {
+    width: 235px;
+    height: 100px;
+    float:left;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+
+#lastweek-title, #thisweek-title {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+#lastweek-team {
+    border: none;
+    text-decoration: none;
+}
+
+#lastweek-winner-cont, #thisweek-winner-cont {
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.winner {
+    background-color: antiquewhite;
 }
